@@ -1,0 +1,6 @@
+https://registry.terraform.io/providers/hashicorp/aws/latest/docs
+
+Iniciar o terra form
+    - terraform initi
+    - terraform plan
+
