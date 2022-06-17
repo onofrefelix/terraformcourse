@@ -2,5 +2,11 @@ https://registry.terraform.io/providers/hashicorp/aws/latest/docs
 
 Iniciar o terra form
     - terraform initi
-    - terraform plan
+    - terraform validate to analize the code
+    - terraform fmt to format code
+    - terraform plan  -out="grava em arquivo o que serea feito"
+    - terraform apply
+
+    # destroy toda infra criada por ele
+    _ terraform destroy
 

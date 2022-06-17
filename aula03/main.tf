@@ -13,7 +13,7 @@ terraform {
 
 #provider configuration
 provider "aws" {
-  region = "us-east-1"
+  region = var.aws_region
   #profile = "nome do profile se for o caso"
 }
 
@@ -32,5 +32,10 @@ resource "aws_s3_bucket" "mytestbucket" {
   }
 }
 
+resource "aws_instance" "web" {
+  ami           = var.instance_ami
+  instance_type = var.instance_type
 
+  tags = var.instance_tags
+}
 
