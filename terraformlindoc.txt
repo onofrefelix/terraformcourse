@@ -5,6 +5,7 @@ Iniciar o terra form
     - terraform validate to analize the code
     - terraform fmt to format code
     - terraform plan  -out="grava em arquivo o que serea feito"
+    - terraform plan -var-file="nome_arquivo_variavel" conceito se aplica ao plan, apply e destroy
     - terraform apply
 
     # destroy toda infra criada por ele

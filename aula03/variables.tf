@@ -1,8 +1,14 @@
+variable "environment" {
+  type        = string
+  description = "Enviroment Type"
+}
+
+
 
 variable "aws_region" {
   type        = string
   description = ""
-  default     = "us-east-1"
+
 }
 
 
@@ -16,13 +22,13 @@ variable "aws_profile" {
 variable "instance_ami" {
   type        = string
   description = "VM de estudo"
-  default     = "ami-08d4ac5b634553e16"
+
 }
 
 variable "instance_type" {
   type        = string
   description = ""
-  default     = "t2.micro"
+
 }
 
 variable "instance_tags" {
